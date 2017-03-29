@@ -19,3 +19,7 @@ Branches can be useful is there are features which you would like to test, but y
 How do the diagrams help you visualize the branch structure?
 
 It helps one see where branches diverge from each other and whether or not a specific commit is reachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+We merge the two branches, keeping all of the commits. This means that even though the changes are now a part of the master branch, we can still see the commit history.

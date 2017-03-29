@@ -23,3 +23,7 @@ It helps one see where branches diverge from each other and whether or not a spe
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 We merge the two branches, keeping all of the commits. This means that even though the changes are now a part of the master branch, we can still see the commit history.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Definitely good that Git can automatically merge branches, however, when there is a conflict it makes sense that I have to manually review it in order to decide which changes are worth keeping. It would not be possible for Git to do this automatically.

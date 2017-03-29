@@ -11,3 +11,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 You can compare the staging area to the last commit by using git diff --staged in order to see that a change has occurred between what you want to commit and the previous commit. 
 
 You can also analyse your staging area using git status in order to make sure that it is in fact what you want to commit, before you make the commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can be useful is there are features which you would like to test, but you are not necessarily sure if they would work. Also perhaps different versions, but you want to keep your master.

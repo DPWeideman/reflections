@@ -5,3 +5,9 @@ A hidden .git folder is added which turns the folder into a repository. It is no
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is an intermediary between the working directory and the repository. This is where you decide what you want to add to a commit before you make the commit. So it gives you a change to evaluate the validity of your commit before making it. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can compare the staging area to the last commit by using git diff --staged in order to see that a change has occurred between what you want to commit and the previous commit. 
+
+You can also analyse your staging area using git status in order to make sure that it is in fact what you want to commit, before you make the commit.

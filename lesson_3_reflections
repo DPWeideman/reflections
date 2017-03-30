@@ -10,3 +10,8 @@ Due to the fact that the changes might not have been made by you, and you might 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Fork is a clone on Github, but with attribution. Clones are on your local machine or between your machine and Github. A branch exists within your repository. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can work offline and then merge with the repository on github later. Also, you can solve merge conflicts that might arrise due to collaboration before merging.
+

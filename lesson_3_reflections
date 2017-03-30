@@ -15,3 +15,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 You can work offline and then merge with the repository on github later. Also, you can solve merge conflicts that might arrise due to collaboration before merging.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+One would probably have to email each other. Would be a lot harder to do, since you wouldn't have verison control etc. 
